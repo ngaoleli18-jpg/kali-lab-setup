@@ -44,7 +44,7 @@ Set up a cybersecurity testing lab on a personal laptop with the following requi
 7. Set a static IP inside Kali via `nmcli`
 8. Took a snapshot as a clean rollback baseline
 
-## 🐛 Issues Encountered & Fixes
+##  Issues Encountered & Fixes
 
 **1. VirtualBox installer failed with a fatal error**
 Root cause: missing Visual C++ 2019 Redistributable. Installed it directly from Microsoft, restarted, and re-ran the VirtualBox installer.
@@ -81,7 +81,4 @@ Screenshots of the working setup are in the [`/screenshots`](./screenshots) fold
 
 Part of the [Networkwalks](https://networkwalks.com) Cybersecurity & Ethical Hacking course, instructed by Waqas Karim (CCIE).
 
-## 🔜 Next Steps
 
-- Phase 2: add Windows 10/11/7 and Android VMs to the same NAT Network for multi-machine practice
-- Begin ethical hacking practice against the lab environment
